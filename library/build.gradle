@@ -16,6 +16,7 @@ android {
         quiet false
         showAll true
         disable 'OldTargetApi'
+        abortOnError false
     }
 
     compileOptions {

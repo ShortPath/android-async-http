@@ -12,8 +12,8 @@ public class SampleApplication extends Application {
 
     @Override
     public void onCreate() {
-        setStrictMode();
         super.onCreate();
+        setStrictMode();
     }
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
